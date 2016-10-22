@@ -1,0 +1,47 @@
+.root {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+.clearfix:before {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.header {
+  text-transform: uppercase;
+  font-family: 'Helvetica Neue-Light', Helvetica;
+  font-weight: 200;
+  font-size: 22px;
+}
+
+.pages {
+  margin: 50px 0 0 50px;
+}
+
+.link {
+  display: block;
+  font-family: 'Helvetica Neue-Light', Helvetica;
+  font-weight: 200;
+  color: #000;
+  line-height: 28px;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+}
